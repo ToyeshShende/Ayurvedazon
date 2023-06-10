@@ -1,0 +1,196 @@
+
+*{
+    padding:0;
+    margin: 0;
+}
+.headerboarder {
+    border-top: 40px solid lightgreen;
+    
+  }
+  .navbar{
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+    
+    
+  }
+
+  .container-fluid{
+    background-color:lightyellow;
+    position: sticky;
+    top:0;
+    left:0;
+   
+  }
+  .nav-link:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  #carouselExampleAutoplaying {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  #carouselExampleAutoplaying .carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  /* Footer styles */
+.footer {
+    padding: 40px 0;
+    color: black;
+  }
+  
+  .footer h5 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer a {
+    color: black;
+  }
+  .footer a:hover {
+    color: yellow;
+  }
+  
+  .bg-body-secondary {
+    background-color: lightgreen !important;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #94C973;
+    
+    font-family: Arial, sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/free-photo/front-view-cinnamon-mint-alogn-with-fresh-tea-white-ingredients-spices-color_140725-24595.jpg?w=900&t=st=1686332306~exp=1686332906~hmac=77493b32e2909bbf6ba55dff26764a360b7a422f858f966766f0858a4dcaaaf7");
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .container-1 h1 {
+    font-size: 1.5rem;
+  }
+  
+  
+  .container-2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .container-2 h2 {
+    font-size: 1.5rem;
+  }
+  .button_submit{
+    background-color: lightgreen;
+    padding: 3px 3px;
+  }
+  .sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.heading {
+  padding-left: 15px;
+  font-size: 1.5rem;
+}
+
+.pro {
+  width:calc(25% - 20px);
+  min-width: 250px;
+  padding: 10px 20px;
+  background-color: lightpink;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pro:hover {
+  transform: scale(1.05);
+}
+
+.pro img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.des-h {
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.describtion {
+  margin-top: 8px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.pro-container {
+  flex-basis: 23%;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.products{
+  padding-left: 14px;
+}
+
+
+.product-details-container {
+  display: none;
+  padding: 20px;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex-basis: 70%;
+}
+
+
